@@ -1,8 +1,9 @@
 # Text-to-Image
 
-_ This project uses the Stable Diffusion Pipeline to generate images from text prompts. The Stable Diffusion Pipeline is a machine learning model that uses a diffusion process to generate images from text prompts. This is a simple GUI application for generating images based on user prompts using the StableDiffusionPipeline model from the diffusers module. The application allows users to enter a prompt, click a button to generate an image based on the prompt, and view the generated image in the GUI window. _
+__ This project uses the Stable Diffusion Pipeline to generate images from text prompts. The Stable Diffusion Pipeline is a machine learning model that uses a diffusion process to generate images from text prompts. This is a simple GUI application for generating images based on user prompts using the StableDiffusionPipeline model from the diffusers module. The application allows users to enter a prompt, click a button to generate an image based on the prompt, and view the generated image in the GUI window. __
 
 To run this file you need a HuggingFace API Token.
+
 1. Go to the Hugging Face website: https://huggingface.co/
 2. Click on the "Sign In" button in the top-right corner of the page.
 3. Sign in with your Hugging Face account or create a new account if you don't have one.
