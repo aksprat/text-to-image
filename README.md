@@ -9,7 +9,7 @@ This project uses the Stable Diffusion Pipeline to generate images from text pro
 
 - [Requirements](#requirements)
 - [Description](#description)
-- [Installation](#installation)
+- [Setting Up Hugging face Account](#HuggingFace Account Setup)
 - [Usage](#usage)
 - [License](#license)
 
@@ -31,7 +31,20 @@ The [sample app](https://oyster-app-rpxke.ondigitalocean.app/) combines [Digital
 
 [Autoscaling](https://www.digitalocean.com/blog/introducing-cpu-based-autoscaling-app-platform?utm_team=devrel&utm_source=github&utm_content=blog) is also enabled in the deployed app to ensure that the app can handle increased traffic. To learn more about autoscaling, see the [Autoscaling video from Bikram Gupta](https://www.youtube.com/watch?v=k8pCGYPeqOQ).
 
-## Installation
+## HuggingFace Account Setup
+
+To run this file you need a HuggingFace API Token.
+
+1. Go to the Hugging Face website: https://huggingface.co/
+2. Click on the "Sign In" button in the top-right corner of the page.
+3. Sign in with your Hugging Face account or create a new account if you don't have one.
+4. Once you are signed in, click on your profile picture in the top-right corner of the page and select "Account settings" from the dropdown menu.
+5. On the account settings page, click on the "API token" tab.
+6. Click on the "Generate new token" button to create a new authorization token.
+7. Enter a name for your token in the "Token name" field (e.g. "Image Generator App").
+8. Choose the permissions you want to grant to your token (e.g. "Read-only" or "Full access").
+9. Click on the "Generate" button to create your token.
+10. Copy the generated token and use it in your Python code where it says self.authorization_token = "".
 
 ### Deploy the App
 
@@ -116,17 +129,4 @@ I tested the autoscaling feature by running a load test (200,000 requests) on th
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-
-To run this file you need a HuggingFace API Token.
-
-1. Go to the Hugging Face website: https://huggingface.co/
-2. Click on the "Sign In" button in the top-right corner of the page.
-3. Sign in with your Hugging Face account or create a new account if you don't have one.
-4. Once you are signed in, click on your profile picture in the top-right corner of the page and select "Account settings" from the dropdown menu.
-5. On the account settings page, click on the "API token" tab.
-6. Click on the "Generate new token" button to create a new authorization token.
-7. Enter a name for your token in the "Token name" field (e.g. "Image Generator App").
-8. Choose the permissions you want to grant to your token (e.g. "Read-only" or "Full access").
-9. Click on the "Generate" button to create your token.
-10. Copy the generated token and use it in your Python code where it says self.authorization_token = "".
 
