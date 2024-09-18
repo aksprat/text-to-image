@@ -35,7 +35,7 @@ The [sample app](https://oyster-app-rpxke.ondigitalocean.app/) combines [Digital
 
 To run this file you need a HuggingFace API Token.
 
-1. Go to the Hugging Face website: https://huggingface.co/
+1. Go to the Hugging Face [website](https://huggingface.co/)
 2. Click on the "Sign In" button in the top-right corner of the page.
 3. Sign in with your Hugging Face account or create a new account if you don't have one.
 4. Once you are signed in, click on your profile picture in the top-right corner of the page and select "Account settings" from the dropdown menu.
