@@ -8,7 +8,7 @@ This project uses the Stable Diffusion Pipeline to generate images from text pro
 - [Requirements](#requirements)
 - [Description](#description)
 - [HuggingFace Account Setup](#HuggingFaceAccountSetup)
-- [Usage](#usage)
+- [Deploy the App](#DeploytheApp)
 - [License](#license)
 
 
@@ -46,7 +46,7 @@ To run this file you need a HuggingFace API Token.
 10. Copy the generated token and use it in your Python code where it says self.authorization_token = "".
 
 
-### Deploy the App
+## Deploy the App
 
 Click the following button to deploy the app to App Platform. If you are not currently logged in with your DigitalOcean account, this button prompts you to to log in.
 
