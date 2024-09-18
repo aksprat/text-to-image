@@ -21,6 +21,8 @@ This project uses the Stable Diffusion Pipeline to generate images from text pro
 
 ## Description
 
+When you run the code, you will be prompted to enter a text prompt. Once you have entered a text prompt, the Stable Diffusion Pipeline will generate an image based on the text prompt. The generated image will be displayed using matplotlib.
+
 This [sample app](https://oyster-app-rpxke.ondigitalocean.app/) demonstrates how to use React in a NextJS app to create a search and filter feature for a list of _some_ aquariums in the United States. The app uses the `useState` hook to filter the list of aquariums based on the user's input in the search bar.
 
 The [sample app](https://oyster-app-rpxke.ondigitalocean.app/) combines [DigitalOcean's MongoDB Managed Database](https://www.digitalocean.com/products/managed-databases-mongodb?utm_team=devrel&utm_source=github&utm_content=managed-databases-mongodb) and Compass to store the list of aquariums and is mapped over and displayed using [Material UI components](https://mui.com/material-ui/).
