@@ -17,7 +17,9 @@ This project uses the Stable Diffusion Pipeline to generate images from text pro
 
 - You need a DigitalOcean account. If you do not already have one, first [sign up](https://cloud.digitalocean.com/registrations/new?utm_team=devrel&utm_source=github&utm_content=signup).
 
-- Latest version of [Node.js](https://nodejs.org/en/download/) and [npm](https://www.npmjs.com/get-npm) installed on your machine.
+- HuggingFace [account](https://huggingface.co/)
+
+- [Stable Diffusion Model](https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0)
 
 ## Description
 
