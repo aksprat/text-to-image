@@ -9,7 +9,7 @@ This project uses the Stable Diffusion Pipeline to generate images from text pro
 
 - [Requirements](#requirements)
 - [Description](#description)
-- [Setting Up Hugging face Account](#HuggingFace Account Setup)
+- [HuggingFace Account Setup](#HuggingFaceAccountSetup)
 - [Usage](#usage)
 - [License](#license)
 
@@ -25,9 +25,7 @@ This project uses the Stable Diffusion Pipeline to generate images from text pro
 
 When you run the code, you will be prompted to enter a text prompt. Once you have entered a text prompt, the Stable Diffusion Pipeline will generate an image based on the text prompt. The generated image will be displayed using matplotlib.
 
-This [sample app](https://oyster-app-rpxke.ondigitalocean.app/) demonstrates how to use React in a NextJS app to create a search and filter feature for a list of _some_ aquariums in the United States. The app uses the `useState` hook to filter the list of aquariums based on the user's input in the search bar.
-
-The [sample app](https://oyster-app-rpxke.ondigitalocean.app/) combines [DigitalOcean's MongoDB Managed Database](https://www.digitalocean.com/products/managed-databases-mongodb?utm_team=devrel&utm_source=github&utm_content=managed-databases-mongodb) and Compass to store the list of aquariums and is mapped over and displayed using [Material UI components](https://mui.com/material-ui/).
+This [static site](https://oyster-app-rpxke.ondigitalocean.app/) hosted on DigitalOcean App Platform  will give you a prompt to enter a text. Once you have entered a text prompt, the Stable Diffusion Pipeline will generate an image based on the text prompt. The website uses the Latent Diffusion Model to create and display the image as per user's input.
 
 [Autoscaling](https://www.digitalocean.com/blog/introducing-cpu-based-autoscaling-app-platform?utm_team=devrel&utm_source=github&utm_content=blog) is also enabled in the deployed app to ensure that the app can handle increased traffic. To learn more about autoscaling, see the [Autoscaling video from Bikram Gupta](https://www.youtube.com/watch?v=k8pCGYPeqOQ).
 
