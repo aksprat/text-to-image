@@ -25,9 +25,9 @@ This project uses the Stable Diffusion Pipeline to generate images from text pro
 
 When you run the code, you will be prompted to enter a text prompt. Once you have entered a text prompt, the Stable Diffusion Pipeline will generate an image based on the text prompt. The generated image will be displayed using matplotlib.
 
-This [static site](https://oyster-app-rpxke.ondigitalocean.app/) hosted on DigitalOcean App Platform  will give you a prompt to enter a text. Once you have entered a text prompt, the Stable Diffusion Pipeline will generate an image based on the text prompt. The website uses the Latent Diffusion Model to create and display the image as per user's input.
+This [static site](https://plankton-app-btjbf.ondigitalocean.app/) hosted on DigitalOcean App Platform  will give you a prompt to enter a text. Once you have entered a text prompt, the Stable Diffusion Pipeline will generate an image based on the text prompt. The website uses the Latent Diffusion Model to create and display the image as per user's input.
 
-[Autoscaling](https://www.digitalocean.com/blog/introducing-cpu-based-autoscaling-app-platform?utm_team=devrel&utm_source=github&utm_content=blog) is also enabled in the deployed app to ensure that the app can handle increased traffic. To learn more about autoscaling, see the [Autoscaling video from Bikram Gupta](https://www.youtube.com/watch?v=k8pCGYPeqOQ).
+[Autoscaling](https://www.digitalocean.com/blog/introducing-cpu-based-autoscaling-app-platform?utm_team=devrel&utm_source=github&utm_content=blog) is also enabled in the deployed app to ensure that the app can handle increased traffic. To learn more about autoscaling, see the [Autoscaling video by Bikram Gupta](https://www.youtube.com/watch?v=k8pCGYPeqOQ).
 
 
 ## HuggingFace Account Setup
