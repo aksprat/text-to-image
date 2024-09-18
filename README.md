@@ -60,7 +60,7 @@ Note that, for the purposes of this tutorial, this button deploys the app direct
 
 To fork our repository, click the **Fork** button in the top-right of [its page on GitHub](https://github.com/aksprat/text-to-image/tree/main), then follow the on-screen instructions. To learn more about forking repos, see the [GitHub documentation](https://docs.github.com/en/github/getting-started-with-github/fork-a-repo).
 
-After forking the repo, you can view the same README in your own GitHub org; for example, in `https://github.com/<your-org>/us-aquarium-search`. To deploy the new repo, visit the [control panel](https://cloud.digitalocean.com/apps) and click the **Create App** button. This takes you to the app creation page. Under **Service Provider**, select **GitHub**. Then, under **Repository**, select your newly-forked repo. Ensure that your branch is set to **main** and **Autodeploy** is checked on. Finally, click **Next**.
+After forking the repo, you can view the same README in your own GitHub org; for example, in `https://github.com/<your-org>/text-to-image`. To deploy the new repo, visit the [control panel](https://cloud.digitalocean.com/apps) and click the **Create App** button. This takes you to the app creation page. Under **Service Provider**, select **GitHub**. Then, under **Repository**, select your newly-forked repo. Ensure that your branch is set to **main** and **Autodeploy** is checked on. Finally, click **Next**.
 
 After clicking the **Deploy to DigitalOcean** button or completing the instructions above to fork the repo, follow these steps:
 
