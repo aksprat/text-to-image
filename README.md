@@ -2,8 +2,6 @@
 
 This project uses the Stable Diffusion Pipeline to generate images from text prompts. The Stable Diffusion Pipeline is a machine learning model that uses a diffusion process to generate images from text prompts. This is a simple GUI application for generating images based on user prompts.
 
-[![Deploy to DO](https://www.deploytodo.com/do-btn-blue.svg)](https://cloud.digitalocean.com/apps/new?repo=https://github.com/aksprat/text-to-image/tree/main)
-
 
 ## Table of Contents
 
@@ -13,6 +11,7 @@ This project uses the Stable Diffusion Pipeline to generate images from text pro
 - [Usage](#usage)
 - [License](#license)
 
+
 ## Requirements
 
 - You need a DigitalOcean account. If you do not already have one, first [sign up](https://cloud.digitalocean.com/registrations/new?utm_team=devrel&utm_source=github&utm_content=signup).
@@ -21,6 +20,7 @@ This project uses the Stable Diffusion Pipeline to generate images from text pro
 
 - [Stable Diffusion Model](https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0)
 
+
 ## Description
 
 When you run the code, you will be prompted to enter a text prompt. Once you have entered a text prompt, the Stable Diffusion Pipeline will generate an image based on the text prompt. The generated image will be displayed using matplotlib.
@@ -28,6 +28,7 @@ When you run the code, you will be prompted to enter a text prompt. Once you hav
 This [static site](https://oyster-app-rpxke.ondigitalocean.app/) hosted on DigitalOcean App Platform  will give you a prompt to enter a text. Once you have entered a text prompt, the Stable Diffusion Pipeline will generate an image based on the text prompt. The website uses the Latent Diffusion Model to create and display the image as per user's input.
 
 [Autoscaling](https://www.digitalocean.com/blog/introducing-cpu-based-autoscaling-app-platform?utm_team=devrel&utm_source=github&utm_content=blog) is also enabled in the deployed app to ensure that the app can handle increased traffic. To learn more about autoscaling, see the [Autoscaling video from Bikram Gupta](https://www.youtube.com/watch?v=k8pCGYPeqOQ).
+
 
 ## HuggingFace Account Setup
 
@@ -44,15 +45,20 @@ To run this file you need a HuggingFace API Token.
 9. Click on the "Generate" button to create your token.
 10. Copy the generated token and use it in your Python code where it says self.authorization_token = "".
 
+
 ### Deploy the App
 
 Click the following button to deploy the app to App Platform. If you are not currently logged in with your DigitalOcean account, this button prompts you to to log in.
 
+
+[![Deploy to DO](https://www.deploytodo.com/do-btn-blue.svg)](https://cloud.digitalocean.com/apps/new?repo=https://github.com/aksprat/text-to-image/tree/main)
+
+
 Once in the console you can choose other services such as Database, Droplets, Autoscaling, and more!
 
-Note that, for the purposes of this tutorial, this button deploys the app directly from DigitalOcean's GitHub repository, which disables automatic redeployment since you cannot change our template. If you want automatic redeployment or you want to change the sample app's code to your own, we instead recommend you fork [our repository](https://github.com/do-community/us-aquarium-search/tree/main).
+Note that, for the purposes of this tutorial, this button deploys the app directly from DigitalOcean's GitHub repository, which disables automatic redeployment since you cannot change our template. If you want automatic redeployment or you want to change the sample app's code to your own, we instead recommend you fork [our repository]([https://github.com/do-community/us-aquarium-search/tree/main](https://github.com/aksprat/text-to-image/tree/main)).
 
-To fork our repository, click the **Fork** button in the top-right of [its page on GitHub](https://github.com/do-community/us-aquarium-search/tree/main), then follow the on-screen instructions. To learn more about forking repos, see the [GitHub documentation](https://docs.github.com/en/github/getting-started-with-github/fork-a-repo).
+To fork our repository, click the **Fork** button in the top-right of [its page on GitHub](https://github.com/aksprat/text-to-image/tree/main), then follow the on-screen instructions. To learn more about forking repos, see the [GitHub documentation](https://docs.github.com/en/github/getting-started-with-github/fork-a-repo).
 
 After forking the repo, you can view the same README in your own GitHub org; for example, in `https://github.com/<your-org>/us-aquarium-search`. To deploy the new repo, visit the [control panel](https://cloud.digitalocean.com/apps) and click the **Create App** button. This takes you to the app creation page. Under **Service Provider**, select **GitHub**. Then, under **Repository**, select your newly-forked repo. Ensure that your branch is set to **main** and **Autodeploy** is checked on. Finally, click **Next**.
 
@@ -67,49 +73,6 @@ After, you should see a **"Building..."** progress indicator. You can click **Vi
 
 Once the build completes successfully, click the **Live App** link in the header and you should see your running application in a new tab, displaying the home page.
 
-### Local Installation (fork)
-
-To install the project, follow these steps:
-
-1. Fork the repository
-2. Install the dependencies:
-
-```bash
-npm install
-```
-
-3. If you are planning on using MongoDB (setup code already in app), make sure to set up the `env` variables so your local development works. Once in the console you will have to set that same `env` variable for the app to build.
-   There is a `.env.example` file set up for your MongoDB Connection String if you choose to use it:
-
-```js
-MONGODB_URI = '';
-```
-
-Run the development server:
-
-```bash
-npm run dev
-```
-
-## Usage
-
-This sample app uses [NextJS](https://nextjs.org/) and can modified to include any data set that you would like to filter and search through.
-
-### CSS
-
-The CSS can also be modified to fit your design preferences. If you choose to use another CSS framework, you can remove the [Material UI components](https://mui.com/material-ui/) and replace them with the components from the framework you choose.
-
-### Database
-
-You are not limited to **ONLY** using MongoDB but if you do, make sure to set up your MongoDB database and connect it to your app. You can use [MongoDB Compass](https://www.mongodb.com/products/tools/compass) to add the data to your database. MongoDB will not be setup by default, you will have to set up your own database. MongoDB it is not considered a dev database in this case. The video below shows how to setup and add the Mongo instance to your app.
-
-Make sure to add your trusted sources to your database. For more information about that, check out the [How to Secure MongoDB Managed Database Clusters](https://docs.digitalocean.com/products/databases/mongodb/how-to/secure/) docs.
-
-Next to the top of the page where it says "test-db" it says **"Creating..."**. The db is being proivisioned and could take a few minutes. Once it is complete, your db will be ready.
-
-https://github.com/do-community/us-aquarium-search/assets/6799474/a768ea6a-a951-48f6-a026-51733f323c66
-
-If you choose to use another database platform, you can modify the code to connect to your database. To learn more about our Managed Databases, see the [Managed Databases documentation](https://www.digitalocean.com/products/managed-databases?utm_team=devrel&utm_source=github&utm_content=managed-databases).
 
 ### Autoscaling
 
